@@ -1,0 +1,7 @@
+package example_1.arithmeticFunctions;
+
+public class BasicFuntions {
+	public double Square(double x){
+		return x * x;
+	}
+}

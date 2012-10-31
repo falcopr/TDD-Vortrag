@@ -1,0 +1,17 @@
+INDEX VERSION 1.126+H:\Projekte\TDD-Vortrag\examples\.metadata\.plugins\org.eclipse.jdt.core
+30765161.index
+4155206848.index
+163172794.index
+3974580528.index
+305854171.index
+1697886153.index
+2305924322.index
+1498219845.index
+573543369.index
+1578271661.index
+3065916431.index
+1995173708.index
+3732016672.index
+1115467115.index
+781117154.index
+3133528496.index

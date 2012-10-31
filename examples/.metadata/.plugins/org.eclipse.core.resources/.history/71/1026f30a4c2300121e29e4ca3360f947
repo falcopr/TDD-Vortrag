@@ -1,0 +1,19 @@
+package example_1.arithmeticFunctions_tests;
+
+import static org.junit.Assert.*;
+import junit.framework.Assert;
+
+import org.junit.*;
+import example_1.arithmeticFunctions.BasicFuntions;
+
+public class BasicFunctions_TestFixture {
+	
+	@Test
+	public void Square_DoubleWithValueFiveDotOne_SquaringDouble(){
+		BasicFuntions bf = new BasicFuntions();
+		
+		double result = bf.square(5.1d);
+		
+		Assert.assertEquals(26.01d, result);
+	}
+}
