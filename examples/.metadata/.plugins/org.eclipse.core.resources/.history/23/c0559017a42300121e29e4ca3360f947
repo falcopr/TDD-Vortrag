@@ -1,0 +1,7 @@
+package example_2.mvc_test;
+
+import org.junit.*;
+
+public class Controller_TestFixture {
+	
+}

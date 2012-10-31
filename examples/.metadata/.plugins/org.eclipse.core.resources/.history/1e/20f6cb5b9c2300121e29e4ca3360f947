@@ -1,0 +1,9 @@
+package example_2.mvc.interfaces;
+
+import javax.swing.*;
+
+public interface IView {
+	JButton getJButton();
+	JFrame getJFrame();
+	void setVisible(boolean visible);
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="TDD" project="TDD" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="example_2.mvc_test.Controller_TestFixture" time="0.105">
+    <testcase name="Controller_ShouldAddActionlistenerToButtonOfViewAndSetVisibilityOfItsFrame_FrameIsVisibleAndOneActionListenerIsSetToButton" classname="example_2.mvc_test.Controller_TestFixture" time="0.105"/>
+  </testsuite>
+  <testsuite name="example_1.arithmeticFunctions_tests.BasicFunctions_TestFixture" time="0.001">
+    <testcase name="Square_DoubleWithValueFiveDotOne_SquaringDouble" classname="example_1.arithmeticFunctions_tests.BasicFunctions_TestFixture" time="0.001"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,5 @@
+package example_2.mvc.interfaces;
+
+public interface IMyJOptionPane {
+	void showMessageDialog(IMyJFrame frame, String message);
+}

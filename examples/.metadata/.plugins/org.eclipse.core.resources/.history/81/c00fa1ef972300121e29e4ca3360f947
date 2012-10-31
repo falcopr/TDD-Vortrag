@@ -1,0 +1,29 @@
+package example_2.mvc;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JOptionPane;
+import example_2.mvc.View;
+import example_2.mvc.Model;
+
+public class Controller {
+
+    private final Model model = new Model();
+    private final View view = new View();
+    
+    public Controller() 
+    {    
+        view.getJButton().addActionListener(new ActionListener(){
+
+            @Override
+            public void actionPerformed(ActionEvent e) 
+            {
+                JOptionPane.showMessageDialog(view, model.getMessage()
+                        + model.getToday());
+            }
+            
+        });
+        
+        view.setVisible(true);
+    }
+}

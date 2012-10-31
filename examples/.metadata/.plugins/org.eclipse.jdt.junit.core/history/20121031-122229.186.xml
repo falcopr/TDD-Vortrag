@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="BasicFunctions_TestFixture" project="TDD" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="example_1.arithmeticFunctions_tests.BasicFunctions_TestFixture" time="0.001">
+    <testcase name="Square_DoubleWithValueFiveDotOne_SquaringDouble" classname="example_1.arithmeticFunctions_tests.BasicFunctions_TestFixture" time="0.001"/>
+  </testsuite>
+</testrun>

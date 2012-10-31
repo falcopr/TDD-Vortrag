@@ -1,0 +1,43 @@
+package example_2.mvc;
+
+import java.awt.BorderLayout;
+import javax.swing.*;
+
+import example_2.mvc.interfaces.IView;
+
+public class View implements IView {
+	
+    private JPanel jContentPane = null;
+    private JFrame jFrame = null;
+    private JButton jButton = null;
+
+    public View() {
+        initialize();
+    }
+
+    private void initialize() {
+        jButton = new JButton();
+        jButton.setText("Klick Mich");
+        
+        jContentPane = new JPanel();
+        jContentPane.setLayout(new BorderLayout());
+        jContentPane.add(getJButton(), BorderLayout.CENTER);
+        
+    	jFrame = new JFrame();
+        jFrame.setSize(300, 200);
+        jFrame.setContentPane(getJContentPane());
+        jFrame.setTitle("JFrame");
+    }
+
+    private JPanel getJContentPane() {
+        return jContentPane;
+    }
+
+    public JButton getJButton() {
+        return jButton;
+    }
+    
+    public JFrame getJFrame() {
+    	return jFrame;
+    }
+}
