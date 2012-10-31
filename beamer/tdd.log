@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.6)  31 OCT 2012 10:56
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.6)  31 OCT 2012 23:35
 entering extended mode
  %&-line parsing enabled.
 **tdd.tex
@@ -891,35 +891,54 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ] [3
 
 ]
+<zyklus.png, id=145, 388.45125pt x 420.82219pt>
+File: zyklus.png Graphic file (type png)
+ <use zyklus.png>
+Overfull \vbox (6.99586pt too high) detected at line 39
+ []
+
 [4
 
-] [5
+ <./zyklus.png (PNG copy)>]
+(/usr/share/texmf-texlive/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2004/10/17 UCS: Unicode data U+0000..U+00FF
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [5
 
 ] [6
 
-] [7
+]
+<logging_closeCoupled.jpg, id=245, 271.0125pt x 125.46875pt>
+File: logging_closeCoupled.jpg Graphic file (type jpg)
 
-] [8
+<use logging_closeCoupled.jpg> [7
 
-] [9
+ <./logging_closeCoupled.jpg>]
+<logging_looseCoupled.jpg, id=279, 450.68375pt x 197.73875pt>
+File: logging_looseCoupled.jpg Graphic file (type jpg)
+
+<use logging_looseCoupled.jpg> [8
+
+ <./logging_looseCoupled.jpg>] [9
 
 ] [10
 
-] [11
-
-] [12
-
-] [13
-
-] [14
-
 ]
-Overfull \hbox (12.78525pt too wide) in paragraph at lines 86--86
+Overfull \hbox (12.78525pt too wide) in paragraph at lines 110--110
 \OT1/cmss/m/n/10.95 furtwangen.de/kaspar/seminar0607/TestDrivenDevelopement.pdf
   
  []
 
-[15
+[11
 
 ]
 \tf@nav=\write6
@@ -938,19 +957,20 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 15330 strings out of 493848
- 285933 string characters out of 1152823
- 369742 words of memory out of 3000000
- 18161 multiletter control sequences out of 15000+50000
- 5452 words of font info for 20 fonts, out of 3000000 for 9000
+ 15923 strings out of 493848
+ 293069 string characters out of 1152823
+ 370742 words of memory out of 3000000
+ 18729 multiletter control sequences out of 15000+50000
+ 13468 words of font info for 50 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 49i,19n,60p,420b,667s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,19n,60p,420b,666s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on tdd.pdf (15 pages, 146166 bytes).
+xlive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmss9.pfb>
+Output written on tdd.pdf (11 pages, 186685 bytes).
 PDF statistics:
- 545 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 422 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 100 words of extra memory for PDF output out of 10000 (max. 10000000)
 
