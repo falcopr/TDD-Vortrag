@@ -1,0 +1,7 @@
+package example_1.arithmeticFunctions_tests;
+
+import junit.framework.TestCase;
+
+public class test extends TestCase {
+
+}
