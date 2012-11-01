@@ -121,13 +121,22 @@ $\rightarrow$ geschriebene Code entscheidet, welcher Test als nächstes durchgef
 
 \section{Das Inversion Of Control im Zusammenhang mit Mocks}
 \begin{frame}
+\frametitle{Stubs}
+\begin{itemize}
+\item Stub - engl. für Platzhalter
+\item Steuerbarer Ersatz für eine existierende Abhängigkeit
+\item Ermöglicht testen des Coes ohne sich direkt mit der Abhängigkeit auseinanderzusetzen
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
 \frametitle{Mocks}
 \begin{itemize}
 \item Mocking - engl. für Vortäuschen
 \item Erstellung eines Versuchsobjektes durch eine vorgetäuschte Implementierung von Schnittstellen oder abstrakten Klassen
 \item Erzeugung des Objektes während der Laufzeit durch Mockframeworks
-\item Implementierung ohne Geschäftslogik
-\item Enthalten Konfigurations- und Testverifizierungsmöglichkeiten für Unit Tests
+\item Enthalten Konfigurations- und Testverifizierungsmöglichkeiten für Unit Tests (Erwartungsgemäße Interaktionen des Mockobjektes wird getestet)
 \item Mockframeworks: Mockito\footnote{http://www.code.google.com/p/mockito/} (Java) und Moq\footnote{http://www.code.google.com/p/moq/} (.NET)
 \end{itemize}
 \end{frame}
@@ -137,7 +146,7 @@ $\rightarrow$ geschriebene Code entscheidet, welcher Test als nächstes durchgef
 \begin{itemize}
 \item kurz IoC - engl. für Steuerungsunkehrung
 \item Aufrufen von benutzerspezifische Methoden durch das Verhalten eines Softwareframeworks
-\item Dependency Injection (DI) = Spezialform des IoC\\Möglichkeit zur Registrierung Schlüssel-Wertpaaren zu einem Container in einer Startsequenz (Bootstrap)
+\item Dependency Injection (DI) = Spezialform des IoC\\Möglichkeit zur Registrierung Schlüssel-Wertpaaren zu einem IoC-Container in einer Startsequenz (Bootstrap)
 \item Schlüssel = abstrakte Klasse oder Schnittstelle\\Wert = Methode zur Rückgabe eines Objektes (Bsp. Konstruktoren oder Methoden)
 \item Inversion Of Control - Frameworks:
 PicoContainer\footnote{http://www.picocontainer.codehaus.org/} (Java) und StructureMap\footnote{http://www.docs.structuremap.net/} (.NET)
@@ -163,10 +172,9 @@ PicoContainer\footnote{http://www.picocontainer.codehaus.org/} (Java) und Struct
 \begin{frame}
 \frametitle{Kombination von Inversion Of Control mit Mocks}
 \begin{itemize}
-\item IoC - Ermöglichen des Benutzens von Mocks zur Testzeit und Produktivcode zur Produktivzeit
-\item Mocks - Dadurch lose Kopplung von Programmkomponenten und Testen als einzelnes\\
-\item Ohne Inversion Of Control keine Mocks zum Testen nutzbar
-\item Ohne Mocks keine testgetriebene Entwicklung für große Programme möglich
+\item IoC - Vereinfachtes Einsetzen von Mocks und Stubs zur Testzeit und zentrale Verwaltung von Produktivkomponenten zur Produktivzeit
+\item Mocks und Stubs - Ermöglicht die lose Kopplung von Programmkomponenten\\
+Dadurch ermöglichen der testgetriebenen Entwicklung, da Programmkomponente als einzelnes testbar\\
 \end{itemize}
 \end{frame}
 
