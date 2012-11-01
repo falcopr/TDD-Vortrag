@@ -1,0 +1,29 @@
+package example_2.mvc_test;
+
+import static org.mockito.Mockito.*;
+
+import org.junit.*;
+import org.mockito.*;
+import example_2.mvc.interfaces.*;
+
+public class Controller_TestFixture {
+	@Mock protected IView viewMock;
+	@Mock protected IModel modelMock;
+	@Mock protected IMyJFrame frameMock;
+	@Mock protected IMyJButton buttonMock;
+	
+	@Before public void SetUp()
+	{
+		viewMock = mock()
+	}
+	
+	@Test public void Controller_ShouldAddActionlistenerToButtonOfViewAndSetVisibilityOfItsFrame_FrameIsVisibleAndOneActionListenerIsSetToButton()
+	{
+		
+	}
+	
+	@After public void TearDown()
+	{
+	
+	}
+}

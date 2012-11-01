@@ -1,0 +1,7 @@
+package example_2.mvc.interfaces;
+
+import javax.swing.JButton;
+
+public interface IView {
+	JButton getJButton();
+}

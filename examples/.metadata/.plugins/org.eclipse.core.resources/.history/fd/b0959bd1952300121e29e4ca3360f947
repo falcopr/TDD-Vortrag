@@ -1,0 +1,42 @@
+package example_2.mvc;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class Model 
+{
+    private static final String message = "Ein einfaches MVC-Beispiel am:\n";
+    private static final Date today = new Date();
+    private final List<String> listItems = new ArrayList<String>();
+
+    public Model() 
+    {
+        listItems.add("Eins");
+        listItems.add("Zwei");
+        listItems.add("Drei");
+        listItems.add("4");
+        listItems.add("365");
+    }
+    /**
+     * @return the message
+     */
+    public String getMessage() {
+        return message;
+    }
+
+    /**
+     * @return the today
+     */
+    public String getToday() {
+        return new SimpleDateFormat("dd.MM.yyyy").format(today);
+    }
+
+    /**
+     * @return the listItems
+     */
+    public List<String> getListItems() {
+        return listItems;
+    }
+}

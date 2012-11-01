@@ -1,0 +1,11 @@
+package example_2.mvc;
+
+import javax.swing.*;
+import example_2.mvc.interfaces.IMyJFrame;
+
+public class MyJFrame extends JFrame implements IMyJFrame{
+	public void setVisible(boolean visible)
+	{
+		super.setVisible(visible);
+	}
+}
