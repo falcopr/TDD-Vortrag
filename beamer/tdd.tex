@@ -67,18 +67,52 @@ Red $\rightarrow$ Green $\rightarrow$ Refactor
 \section{Vorgehensweise der testgetriebenen Entwicklung}
 \begin{frame}
 \frametitle{Vorgehensweise der testgetriebenen Entwicklung}
+\begin{itemize}
+\item Festlegung des groben Designs und eines sinnvollen Startpunkts
+\item zuerst Unit-Test, danach eigentlicher Programmcode
+\item Test und Code im Wechselspiel:
+\end{itemize}
+
+$\rightarrow$ fehlschlagende Test entscheidet, welcher Code geschrieben werden muss\\
+$\rightarrow$ geschriebene Code entscheidet, welcher Test als nächstes durchgeführt wird
 \end{frame}
 
 \begin{frame}
 \frametitle{Unit Tests}
+\begin{itemize}
+\item Einzelner Aspekt einer Funktion
+\item geg. Simulation unfertiger Programmlogik
+\item schnell, fokussiert
+\item Anforderungen an Code wird durch Test spezifiziert
+\item kein Ersatz für Systemtests
+\item zusätzliche Dokumentation
+\end{itemize}
 \end{frame}
 
 \begin{frame}
 \frametitle{Testentwurf}
+\begin{itemize}
+\item Was sind die benötigten Inputs für den Test? 
+\item Wie teste ich die Effekte der Inputs?
+\item In welchem Umfeld läuft der Test?
+\end{itemize}
 \end{frame}
 
 \begin{frame}
 \frametitle{Entwicklungszyklus}
+\begin{enumerate}
+\item Auswahl des nächsten Testfalls
+\item Schreiben des Testentwurfs
+\item Schreiben des Programmcodes
+\item Test des Programmcodes (Red)
+\item Verbessern des Programmcodes
+\item erneutes Testen (Green)
+\item Entfernen von Duplikationen (Refactor)
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\includegraphics[width=9cm]{TestDrivenDevelopment.png}
 \end{frame}
 
 \section{Das Inversion Of Control im Zusammenhang mit Mocks}
@@ -135,17 +169,19 @@ PicoContainer\footnote{http://www.picocontainer.codehaus.org/} (Java) und Struct
 \section{Testgetriebene Entwicklung in der Praxis}
 \begin{frame}
 \frametitle{siehe Beispiel}
+\includegraphics[width=10cm]{TestDrivenDevelopment_155FE599.png}
 \end{frame}
 
 \begin{appendix}
 \begin{frame}
 \frametitle{Quellen}
 \begin{itemize}
-\item http://www.codefest.at/post/2009/11/27/Design-Patterns-Teil-1-e28093-Inversion-of-Control-Dependency-Injection.aspx
-\item http://www.code.google.com/p/mockito/
-\item http://www.code.google.com/p/moq/
-\item http://www.webuser.hs-furtwangen.de/kaspar/seminar0607/TestDrivenDevelopement.pdf
-\item http://junit.sourceforge.net/javadoc/overview-summary.html
+\item \url{http://www.codefest.at/post/2009/11/27/Design-Patterns-Teil-1-e28093-Inversion-of-Control-Dependency-Injection.aspx}
+\item \url{http://www.code.google.com/p/mockito/}
+\item \url{http://www.code.google.com/p/moq/}
+\item \url{http://www.webuser.hs-furtwangen.de/kaspar/seminar0607/TestDrivenDevelopement.pdf}
+\item \url{http://junit.sourceforge.net/javadoc/overview-summary.html}
+\item \url{www.kitware.com/blog/files/15_788403459_TestDrivenDevelopment.png}
 \item OSHEROVE, Roy: the art of UNIT TESTING - with Examples in .NET. Manning Publications Co., 2009
 \end{itemize}
 \end{frame}
